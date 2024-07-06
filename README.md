@@ -1,4 +1,4 @@
-# Spark PySpark Word Counter
+# PDF word counter with Spark
 
 A Dockerized PySpark application for counting word frequencies in a PDF document
 
