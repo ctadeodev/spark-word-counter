@@ -4,7 +4,7 @@ A Dockerized PySpark application for counting word frequencies in a PDF document
 
 In this basic configuration, we will create the following:
 
-1. A word_count.py script that counts numbers 1–1000 but in a parallelized operation (the Driver/client).
-2. A 2-node (1 master, 1 worker) spark cluster that runs in Docker
+1. A word_count.py script that list of words (top 10) that appear in a pdf document and the number of their occurence
+2. A 3-node (1 master, 2 worker) spark cluster that runs in Docker
 
 I ran these both on my local machine, but in theory, the driver and cluster can be on separate machines
